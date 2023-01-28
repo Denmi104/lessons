@@ -1,0 +1,50 @@
+@import url("reset.css");
+/* ----------------------- */
+
+
+h1  {
+	color: brown;
+}
+#link1 {
+	color: red;
+}
+.text {
+	color: blue;
+}
+.navigation {
+	color: green;
+}
+.list > li  {
+	color: red;
+}
+
+.text1__content {
+	color: rgb(198, 14, 14);
+}
+
+.text2__content.honda2005 {
+	color: yellow;
+}
+
+.text3__content,
+.text6__content {
+	color: blue;
+}
+
+.text4__content *{
+	color: rgb(246, 3, 3);
+}
+
+.text5__content  + p {
+	color: red;
+}
+
+.menu {
+	color: rgb(224, 61, 28);
+}
+[class*="__title"] {
+	color: rgb(230, 8, 208);
+}
+img{
+	width: 100%;
+}
