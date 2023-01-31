@@ -1,0 +1,79 @@
+@import url("reset.css");
+/* ----Обнуляющий---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+@font-face {
+    font-family: 'ROOSTER PERSONAL USE';
+    src: url('../fonts/ROOSTERPERSONALUSE.woff2') format('woff2'),
+        url('../fonts/ROOSTERPERSONALUSE.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* ROOSTER PERSONAL USE */
+
+
+/* =============Шрифты======================== */
+
+body{
+    
+    font-family: 'Noto+Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.7;
+    
+
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-style: 700;
+    color: rgb(251, 204, 146);
+    text-shadow: 2px 2px 5px #000
+}
+.list_title {
+    color: rgb(228, 78, 9);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+.list1 {
+    color: blue;
+}
+.sp2{
+    text-decoration: line-through;
+}
+
+.image {
+    text-align: center;
+}
+
+
+.list_games {
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.footer_list {
+    text-align: center;
+    color: red;
+}
+
+
+.link_footer {
+    text-transform: uppercase;
+}
+[class*="__title"] {
+    font-family: "Yanone Kaffeesatz" ,sans-serif  ;
+    font-size: 24px;
+    text-align: center;
+    font-style: bold;
+    color: rgb(91, 149, 14);
+}
+[class*="__content"]{
+    text-indent: 30px;
+}
+
