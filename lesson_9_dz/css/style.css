@@ -1,0 +1,37 @@
+@import url(reset.css);
+
+.main_conteiner{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.icons {
+	background-color: #9f0ea495;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+
+.content {
+	background-color: #fcf0aa;
+	padding-top: 30px;
+	border-radius: 20px;
+}
+img{
+	display: inline-block;
+	max-width: 100%;
+	margin: 10px;
+	vertical-align: middle;
+}
+.design {
+	background-color: #c8c3f6;
+	border-radius: 25px;
+}
+
+[class*=_title]{	font-size: 45px;
+	text-align: center;
+	margin-bottom: 30px;
+	color: rgb(70, 10, 126);
+
+}
